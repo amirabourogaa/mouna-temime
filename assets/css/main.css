@@ -19,10 +19,10 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root {
-    --background-color: #f5f3f4; /* Nouveau background color */
-    --default-color: #660708;    /* Nouvelle couleur d'écriture */
-    --heading-color: #660708;    /* Couleur des titres assortie à l'écriture */
-    --accent-color: #a4161a;     /* Nouvelle couleur des boutons */
+    --background-color: #ed636a00; /* Nouveau background color */
+    --default-color: #5b2528;    /* Nouvelle couleur d'écriture */
+    --heading-color: #ED636A;    /* Couleur des titres assortie à l'écriture */
+    --accent-color: #ED636A;     /* Nouvelle couleur des boutons */
     --surface-color: #f5f3f4;    /* Surface color assortie au background */
     --contrast-color: #ffffff;    /* Gardé blanc pour le contraste */
 }
@@ -45,7 +45,7 @@
 }
 
 .dark-background {
-  --background-color: #a4161a;;
+  --background-color: #ED636A;;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #001553;
@@ -222,7 +222,7 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color:#660708;
+  --background-color:#ED636A;
   --heading-color: #ffffff;
   color: var(--default-color);
   background-color: var(--background-color);
@@ -287,7 +287,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: #660708;
+  --background-color: #ED636A;
 }
 
 /*--------------------------------------------------------------
@@ -985,12 +985,12 @@ section,
 .approches .section-title h2 {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #660708;
+  color: #ED636A;
 }
 
 .approches .section-title p {
   font-size: 1.2rem;
-  color:  #660708;
+  color:  #ED636A;
   line-height: 1.6;
 }
 
