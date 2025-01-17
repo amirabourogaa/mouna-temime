@@ -22,7 +22,7 @@
     --background-color: #ed636a00; /* Nouveau background color */
     --default-color: #5b2528;    /* Nouvelle couleur d'écriture */
     --heading-color: #ED636A;    /* Couleur des titres assortie à l'écriture */
-    --accent-color: #ED636A;     /* Nouvelle couleur des boutons */
+    --accent-color: #ed636a97;     /* Nouvelle couleur des boutons */
     --surface-color: #f5f3f4;    /* Surface color assortie au background */
     --contrast-color: #ffffff;    /* Gardé blanc pour le contraste */
 }
@@ -33,7 +33,7 @@
   --nav-hover-color: #ffffff; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-color: #5b2528; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #f82249; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
@@ -48,7 +48,7 @@
   --background-color: #ED636A;;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #001553;
+  --surface-color: #5b2528;
   --contrast-color: #ffffff;
 }
 
@@ -222,7 +222,7 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color:#ED636A;
+  --background-color:#ed636a97;
   --heading-color: #ffffff;
   color: var(--default-color);
   background-color: var(--background-color);
@@ -287,7 +287,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: #ED636A;
+  --background-color: #ed636ab6;
 }
 
 /*--------------------------------------------------------------
